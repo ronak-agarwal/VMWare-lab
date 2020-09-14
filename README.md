@@ -10,7 +10,7 @@ Deploy ESXi, PfSense and VCSA 6.7 on Macbook pro and automate VM creation via te
 5. Create Pfsense VM (fw01 is hostname) from ESXi browser
 6. Configure DNS on Esxi to point to PfSense VM
 7. Download VCSA 6.7 ISO and extract locally on Mac (where OVF file present)
-8. Create VCSA VM (vc01 hostname) from ESXi browser by using OVF template
+8. Create vCenter Server - VCSA VM (vc01 hostname) from ESXi browser by using OVF template
 
 If all above are successful you should have all 3 running and accessible via webbrowser-
 
