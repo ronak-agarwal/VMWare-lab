@@ -16,6 +16,7 @@ If all above are successful you should have all 3 running and accessible via web
 
 ## Overall Deployment Architecture
 
+[![deployment.png](https://github.com/ronak-agarwal/VMWare-lab/blob/master/images/deployment.png)]()
 
 a) ESXi server
 
