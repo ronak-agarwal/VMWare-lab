@@ -1,7 +1,7 @@
 # VMWare-lab
 Deploy ESXi, PfSense and VCSA 6.7 on Macbook pro and automate VM creation via terraform
 
-### Steps to create VM Ware lab environment on Macbook pro (10 Gb RAM and 8 vCPU needed)
+### Steps to create VM Ware lab environment on Macbook pro (12 Gb RAM, 8 vCPU and 60 Gig Disk needed)
 
 1. Download VMWare Fusion 10.x / 11.x
 2. Download ESXi 6.7 ISO (by creating VMware account)
@@ -91,4 +91,15 @@ c) VCSA Server
 
 1. Automate VM template creation via Hashicorp Packer
 
+- Need Packer 1.5.x (as from 1.6.x HCL2 is used so you will have to change json template)
+- We'll use vsphere-iso builder-type in packer API, this is to build VM snapshot (Eg CentOS)
+- Sample json for packer is inside /packer/
+
 2. Automate VM creation using above template via Terraform
+
+
+### Some Links
+https://www.settlersoman.com/how-to-expand-vmfs-datastore-from-the-command-line-cli-on-vsphere-5-x-and-6-x/
+https://graspingtech.com/install-vmware-vpshere-esxi-mac/
+https://graspingtech.com/build-vsphere-lab-vmware-fusion-part-1/
+https://graspingtech.com/ansible-deploy-vmware-vm/

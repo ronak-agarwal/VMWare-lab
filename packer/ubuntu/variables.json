@@ -1,0 +1,22 @@
+{
+  "vm-name": "Ubuntu-1804-Template",
+
+  "vcenter-server": "vc01.localdomain.xx",
+  "vcenter-username": "administrator@localdomain.xx",
+  "vcenter-password": "Welcome123!",
+
+  "datacenter": "Newcastle",
+  "datastore": "datastore1",
+  "folder": "Templates",
+  "cluster": "Cluster01",
+  "network": "VM Network",
+
+  "vm-cpu-num": "1",
+  "vm-mem-size": "1024",
+  "vm-disk-size": "10240",
+
+  "ssh-username": "kopicloud",
+  "ssh-password": "kopicloud",
+
+  "iso-url": "[datastore1] iso/ubuntu-20.04.1-live-server-amd64.iso"
+}
