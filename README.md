@@ -84,8 +84,11 @@ My laptop /etc/hosts
 c) VCSA Server
 [![vc.png](https://github.com/ronak-agarwal/VMWare-lab/blob/master/images/vc.png)]()
 
+```hcl
 https://vc01.localdomain.xx:5480/login (for configuration)
 https://vc01.localdomain.xx/ui
+```
+
 -----------
 
 ## Automation
@@ -104,6 +107,9 @@ https://vc01.localdomain.xx/ui
 
 ### Some Links
 https://www.settlersoman.com/how-to-expand-vmfs-datastore-from-the-command-line-cli-on-vsphere-5-x-and-6-x/
+
 https://graspingtech.com/install-vmware-vpshere-esxi-mac/
+
 https://graspingtech.com/build-vsphere-lab-vmware-fusion-part-1/
+
 https://graspingtech.com/ansible-deploy-vmware-vm/
