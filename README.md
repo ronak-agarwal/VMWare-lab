@@ -16,15 +16,15 @@ If all above are successful you should have all 3 running and accessible via web
 
 ## Overall Deployment Architecture
 
-[![deployment.png](https://github.com/ronak-agarwal/VMWare-lab/blob/master/images/deployment.png)]()
+[![deployment.png](https://github.com/ronak-agarwal/VMWare-lab/blob/master/png-img/deployment.png)]()
 
 -------------
 
 a) ESXi server
-[![esxi.png](https://github.com/ronak-agarwal/VMWare-lab/blob/master/images/esxi.png)]()
+[![esxi.png](https://github.com/ronak-agarwal/VMWare-lab/blob/master/png-img/esxi.png)]()
 
 Network Adaptors on Fusion and ESXi
-[![fusion-network.png](https://github.com/ronak-agarwal/VMWare-lab/blob/master/images/fusion-network.png)]()
+[![fusion-network.png](https://github.com/ronak-agarwal/VMWare-lab/blob/master/png-img/fusion-network.png)]()
 
 Fusion networking ::
 
@@ -67,7 +67,7 @@ sudo /Applications/VMware\ Fusion.app/Contents/Library/vmnet-cli --start
 
 
 b) PFSense server
-[![pfsense.png](https://github.com/ronak-agarwal/VMWare-lab/blob/master/images/pfsense.png)]()
+[![pfsense.png](https://github.com/ronak-agarwal/VMWare-lab/blob/master/png-img/pfsense.png)]()
 
 
 My laptop /etc/hosts
@@ -82,7 +82,7 @@ My laptop /etc/hosts
 
 
 c) VCSA Server
-[![vc.png](https://github.com/ronak-agarwal/VMWare-lab/blob/master/images/vc.png)]()
+[![vc.png](https://github.com/ronak-agarwal/VMWare-lab/blob/master/png-img/vc.png)]()
 
 ```hcl
 https://vc01.localdomain.xx:5480/login (for configuration)
