@@ -9,6 +9,7 @@
   "datastore": "datastore1",
   "folder": "Templates",
   "cluster": "Cluster01",
+  "host": "esxi01.localdomain.xx",
   "network": "VM Network",
 
   "vm-cpu-num": "1",

@@ -84,7 +84,8 @@ My laptop /etc/hosts
 c) VCSA Server
 [![vc.png](https://github.com/ronak-agarwal/VMWare-lab/blob/master/images/vc.png)]()
 
-
+https://vc01.localdomain.xx:5480/login (for configuration)
+https://vc01.localdomain.xx/ui
 -----------
 
 ## Automation
@@ -94,6 +95,9 @@ c) VCSA Server
 - Need Packer 1.5.x (as from 1.6.x HCL2 is used so you will have to change json template)
 - We'll use vsphere-iso builder-type in packer API, this is to build VM snapshot (Eg CentOS)
 - Sample json for packer is inside /packer/
+
+> Ubuntu : packer build -var-file=variables.json ubuntu8.json
+>
 
 2. Automate VM creation using above template via Terraform
 

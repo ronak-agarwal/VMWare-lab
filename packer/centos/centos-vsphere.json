@@ -6,6 +6,7 @@
 
     "vsphere-datacenter": "Newcastle",
     "vsphere-cluster": "Cluster01",
+    "host": "esxi01.localdomain.xx",
     "vsphere-network": "VM Network",
     "vsphere-datastore": "datastore1",
 
@@ -28,6 +29,7 @@
 
       "datacenter": "{{user `vsphere-datacenter`}}",
       "cluster": "{{user `vsphere-cluster`}}",
+      "host": "{{user `host`}}",
       "network": "{{user `vsphere-network`}}",
       "datastore": "{{user `vsphere-datastore`}}",
 

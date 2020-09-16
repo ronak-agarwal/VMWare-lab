@@ -31,10 +31,8 @@
       "RAM": "{{user `vm-mem-size`}}",
       "RAM_reserve_all": true,
 
-      "disk_controller_type": "scsi",
       "disk_size": "{{user `vm-disk-size`}}",
       "disk_thin_provisioned": true,
-      "cdrom_type": "ide"
       "iso_paths": ["{{user `iso_url`}}"],
 
       "floppy_files": ["./preseed.cfg"],
