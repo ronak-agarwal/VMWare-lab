@@ -108,7 +108,9 @@ TODO - Packer script still failing due to local device0 mounting issue, need to 
 2. Automate VM creation using above template via Terraform
 
 > cd /terraform/VM/ubuntu/
+
 > terraform init
+
 > terraform apply
 
 ### TODOs
