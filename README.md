@@ -100,10 +100,22 @@ https://vc01.localdomain.xx/ui
 - Sample json for packer is inside /packer/
 
 > Ubuntu : packer build -var-file=variables.json ubuntu8.json
->
+
+
+TODO - Packer script still failing due to local device0 mounting issue, need to investigate, but you can manually shutdown and create template from any running VM (Eg- Ubuntu)
+
 
 2. Automate VM creation using above template via Terraform
 
+> cd /terraform/VM/ubuntu/
+> terraform init
+> terraform apply
+
+### TODOs
+
+1. Create K8S cluster on CentOS VMs (1 master, 1 worker)
+2. Deploy Web application on k8s
+3. Automate ESXi > VMs > K8S > Web-app all in one go (combination of ansible, terraform, helm)
 
 ### Some Links
 https://www.settlersoman.com/how-to-expand-vmfs-datastore-from-the-command-line-cli-on-vsphere-5-x-and-6-x/
