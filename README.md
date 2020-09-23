@@ -1,5 +1,5 @@
 # VMWare-lab
-Deploy ESXi, PfSense and VCSA 6.7 on Macbook pro and automate VM creation via terraform
+Deploy ESXi 6.0, PfSense 2.4.5 and VCSA 6.7 on Macbook pro and automate VM creation via terraform
 
 ### Steps to create VM Ware lab environment on Macbook pro (12 Gb RAM, 8 vCPU and 60 Gig Disk needed)
 
@@ -11,6 +11,16 @@ Deploy ESXi, PfSense and VCSA 6.7 on Macbook pro and automate VM creation via te
 6. Configure DNS on Esxi to point to PfSense VM
 7. Download VCSA 6.7 ISO and extract locally on Mac (where OVF file present)
 8. Create vCenter Server - VCSA VM (vc01 hostname) from ESXi browser by using OVF template
+
+List of ISOs -
+
+```hcl
+VMware-VMvisor-Installer-6.0.0.update03-5050593.x86_64.iso
+pfSense-CE-2.4.5-RELEASE-p1-amd64.iso
+VMware-VCSA-all-6.7.0-8217866.iso
+CentOS-7-x86_64-Minimal-2003.iso
+ubuntu-18.04.4-server-amd64.iso
+```
 
 If all above are successful you should have all 3 running and accessible via webbrowser-
 
@@ -127,3 +137,5 @@ https://graspingtech.com/install-vmware-vpshere-esxi-mac/
 https://graspingtech.com/build-vsphere-lab-vmware-fusion-part-1/
 
 https://graspingtech.com/ansible-deploy-vmware-vm/
+
+K8S setup - https://medium.com/@genekuo/setting-up-a-multi-node-kubernetes-cluster-on-a-laptop-69ae3e3d0f7c
